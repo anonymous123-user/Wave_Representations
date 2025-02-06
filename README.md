@@ -39,7 +39,7 @@
 </table>
 
 ## Reproducing results
-1. First, set up the conda environment using environment.yml.
+1. Set up the conda environment using environment.yml.
 2. Create data by running data_scripts/create_tetrominoes.py and data_scripts/download_mnist.ipynb
 3. Train all the MNIST and Tetrominoes models using ./run_all_mnist.sh and ./run_all_tetro.sh
 4. Produce Figure 3 using produce_figs3.ipynb.
