@@ -1,6 +1,5 @@
 # Traveling Waves Integrate Spatial Information Into Spectral Representations
 
-
 ## coRNN states
 <table>
   <tr>
@@ -38,3 +37,6 @@
     <td><img src="gifs/lstm_sample-12.gif" alt="Description 9" width="200"/></td>
   </tr>
 </table>
+
+
+To reproduce the experiments, set up the conda environment using environment.yml. Then, run all the scripts using ./run_all_mnist.sh and ./run_all_tetro.sh
