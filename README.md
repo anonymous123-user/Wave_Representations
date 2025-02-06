@@ -38,5 +38,9 @@
   </tr>
 </table>
 
-
-To reproduce the experiments, set up the conda environment using environment.yml. Then, run all the scripts using ./run_all_mnist.sh and ./run_all_tetro.sh
+## Reproducing results
+1. First, set up the conda environment using environment.yml.
+2. Create data by running data_scripts/create_tetrominoes.py and data_scripts/download_mnist.ipynb
+3. Train all the MNIST and Tetrominoes models using ./run_all_mnist.sh and ./run_all_tetro.sh
+4. Produce Figure 3 using produce_figs3.ipynb.
+5. Produce the scores for the table using produce_scores_4_most.ipynb and then produce_scores_4_last.ipynb
