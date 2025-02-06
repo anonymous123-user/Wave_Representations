@@ -1,6 +1,7 @@
-# Wave_Representations
+# Traveling Waves Integrate Spatial Information Into Spectral Representations
 
 
+## coRNN states
 <table>
   <tr>
     <td><img src="gifs/cornn_sample-2.gif" alt="Description 1" width="200"/></td>
@@ -19,6 +20,7 @@
   </tr>
 </table>
 
+## LSTM states
 <table>
   <tr>
     <td><img src="gifs/lstm_sample-2.gif" alt="Description 1" width="200"/></td>
