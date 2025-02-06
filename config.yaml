@@ -3,10 +3,10 @@ wandb:
   entity:
 hydra:
   run:
-    dir: /${now:%Y-%m-%d}/${now:%H-%M-%S} #${now:%Y-%m-%d}/${now:%H-%M-%S}
+    dir: experiments #${now:%Y-%m-%d}/${now:%H-%M-%S}
 params:
-  run_name: "${now:%Y-%m-%d}/${now:%H-%M-%S}/new_tetronimoes/b1f_16l"
-  model_type: "baseline3" # model1=cornn, model2=slot attention, model3=baseline conv
+  run_name: "experiments/${now:%Y-%m-%d}/${now:%H-%M-%S}/new_tetronimoes/b1f_16l"
+  model_type: "baseline1_flexible" # model1=cornn, model2=slot attention, model3=baseline conv
   block_type: "block18"
   oscillator_type: "cornn" #"d-kuramoto" # cornn, kuramoto, d-kuramoto, b-kuramoto, cornn2, cornn3
   dataset: "mnist" # options: 'two-shapes' 'tetrominoes' '2-4Shapes'

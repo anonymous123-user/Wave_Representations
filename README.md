@@ -40,7 +40,9 @@
 
 ## Reproducing results
 1. Set up the conda environment using environment.yml.
-2. Create data by running data_scripts/create_tetrominoes.py and data_scripts/download_mnist.ipynb
-3. Train all the MNIST and Tetrominoes models using ./run_all_mnist.sh and ./run_all_tetro.sh
-4. Produce Figure 3 using produce_figs3.ipynb.
-5. Produce the scores for the table using produce_scores_4_most.ipynb and then produce_scores_4_last.ipynb
+2. Create data by running data_scripts/create_tetrominoes.py and data_scripts/download_mnist.py
+3. Edit dataset_config.py with absolute paths to the generated data.
+4. Train all the MNIST and Tetrominoes models using ./run_all_mnist.sh and ./run_all_tetro.sh
+5. Produce Figure 3 using produce_figs3.ipynb.
+6. Produce the scores for the table using produce_scores_4_most.ipynb and then produce_scores_4_last.ipynb
+7. Produce polygons results.

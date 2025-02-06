@@ -1,5 +1,5 @@
 DATASET_CONFIG = {
-    'new_tetronimoes': {
+    'new_tetronimoes': { # PUT ABSOLUTE PATH TO THE DATA FILES
         'x_train_path': "data/new_tetrominoes/train_images.npy",
         'y_train_path': "data/new_tetrominoes/train_masks.npy",
         'x_val_path': "data/new_tetrominoes/val_images.npy",
@@ -10,8 +10,8 @@ DATASET_CONFIG = {
         'channels': 3,
     },
     'mnist': {
-        'train_path': 'data/mnist/',
-        'test_path': 'data/mnist/',
+        'train_path': 'data/mnist/', # PUT ABSOLUTE PATH TO THIS FOLDER
+        'test_path': 'data/mnist/', # PUT ABSOLUTE PATH TO THIS FOLDER
         'img_size': 56,  # Image size for resizing
         'channels': 1,
     },
