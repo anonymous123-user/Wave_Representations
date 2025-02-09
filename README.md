@@ -1,5 +1,25 @@
 # Traveling Waves Integrate Spatial Information Into Spectral Representations
 
+## coRNN states - polygons
+<table>
+  <tr>
+    <td><img src="gifs/polygon_0.gif" alt="Polygon shape 0" width="200"/></td>
+    <td><img src="gifs/polygon_1.gif" alt="Polygon shape 1" width="200"/></td>
+    <td><img src="gifs/polygon_2.gif" alt="Polygon shape 2" width="200"/></td>
+  </tr>
+  <tr>
+    <td><img src="gifs/polygon_3.gif" alt="Polygon shape 3" width="200"/></td>
+    <td><img src="gifs/polygon_4.gif" alt="Polygon shape 4" width="200"/></td>
+    <td><img src="gifs/polygon_5.gif" alt="Polygon shape 5" width="200"/></td>
+  </tr>
+  <tr>
+    <td><img src="gifs/polygon_6.gif" alt="Polygon shape 6" width="200"/></td>
+    <td><img src="gifs/polygon_7.gif" alt="Polygon shape 7" width="200"/></td>
+    <td><img src="gifs/polygon_8.gif" alt="Polygon shape 8" width="200"/></td>
+  </tr>
+</table>
+
+
 ## coRNN states
 <table>
   <tr>
@@ -45,4 +65,4 @@
 4. Train all the MNIST and Tetrominoes models using ./run_all_mnist.sh and ./run_all_tetro.sh
 5. Produce Figure 3 using produce_figs3.ipynb.
 6. Produce the scores for the table using produce_scores_4_most.ipynb and then produce_scores_4_last.ipynb
-7. Produce polygons results.
+7. Produce polygons results using multi_polygon_classification_iclr.ipynb
