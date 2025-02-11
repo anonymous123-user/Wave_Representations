@@ -1,5 +1,8 @@
 # Traveling Waves Integrate Spatial Information Into Spectral Representations
 
+## Figure 1: Single Polygon
+<img src="gifs/wave_hexagon.gif" alt="Figure 1 hexagon"/>
+
 ## coRNN states - polygons
 <table>
   <tr>
