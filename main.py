@@ -54,7 +54,7 @@ def main(config):
                 num_classes=config.num_classes, cp_path=config.cp_path, patience=config.training_patience, tolerance=config.training_tolerance)
     
     # Save
-    save_model(net, config.cp_path)
+    #save_model(net, config.cp_path)
 
 
 if __name__ == "__main__":

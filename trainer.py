@@ -35,7 +35,6 @@ def train(net, dataset_name, trainset, testset, device,
     optim = get_optim(net, lr, optimizer, weight_decay)
 
     best_val_loss = float('inf')
-    best_model_weights = None
     patience_counter = 0
 
     epochs = max_epochs
@@ -103,8 +102,7 @@ def train(net, dataset_name, trainset, testset, device,
 
         if test_loss < best_val_loss - tolerance:
             best_val_loss = test_loss
-            best_model_weights = net.state_dict()  # Save the best model weights
-            save_weights(best_model_weights, cp_path)
+            save_weights(net.state_dict(), cp_path)
             patience_counter = 0  # Reset patience counter since we found a new best
             print("New best model found and saved.")
         else:
@@ -117,12 +115,7 @@ def train(net, dataset_name, trainset, testset, device,
             break
 
     # Load weights of the best model
-    if best_model_weights is not None:
-        net.load_state_dict(best_model_weights)
-        print("Best model loaded.")
-    else:
-        print("No improvement during training.")
-
+    net.load_state_dict(torch.load(cp_path))
     net.eval()
     return net
 
